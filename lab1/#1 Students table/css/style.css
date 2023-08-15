@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  background-color: #7ad4cb;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+}
+
+.container input {
+  height: 40px;
+  width: 200px;
+  border: #17391b solid 1px;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+
+.container input:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  margin: 0 20px;
+  background-color: #448d4d;
+  width: 150px;
+  height: 40px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #316637;
+}
+button:active {
+  width: 148px;
+  height: 38px;
+  background-color: #17391b;
+}
+.action {
+  text-align: center;
+}
+.btn-delete {
+  background-color: #8d2012;
+  font-size: 15px;
+  padding: 5px;
+  padding: 5px;
+  height: 30px;
+  width: 60px;
+  margin: 5px 0;
+}
+.btn-delete:hover {
+  background-color: #b82612;
+}
+.btn-delete:active {
+  background-color: #5a150c;
+  height: 28px;
+  width: 58px;
+}
+.error {
+  color: red;
+  font-weight: 300;
+  display: none;
+}
+table {
+  width: 550px;
+}
+thead tr {
+  color: #58aca3;
+}
+tbody tr {
+  background-color: rgb(245, 245, 245);
+}
+tbody tr td {
+  padding-left: 5px;
+}
